@@ -1,0 +1,34 @@
+{
+  "name": "interleave-typed-array",
+  "version": "1.0.0",
+  "description": "Interleave n typed arrays.",
+  "keywords": [
+    "interleave",
+    "typed-arrays",
+    "arrays",
+    "util"
+  ],
+  "homepage": "https://github.com/dmnsgn/interleave-typed-array",
+  "bugs": "https://github.com/dmnsgn/interleave-typed-array/issues",
+  "repository": "dmnsgn/interleave-typed-array",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=15.0.0",
+    "npm": ">=7.0.0"
+  }
+}
