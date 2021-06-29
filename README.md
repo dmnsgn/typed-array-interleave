@@ -39,6 +39,24 @@ interleaveTypedArray(
 
 <!-- api-start -->
 
+<a name="module_interleaveTypedArray"></a>
+
+## interleaveTypedArray
+
+<a name="exp_module_interleaveTypedArray--interleaveTypedArray"></a>
+
+### interleaveTypedArray(ResultConstructor, elements, ...arrays) ⇒ <code>TypedArray</code> ⏏
+
+Interleave n typed arrays
+
+**Kind**: Exported function
+
+| Param             | Type                    | Description                                      |
+| ----------------- | ----------------------- | ------------------------------------------------ |
+| ResultConstructor | <code>TypedArray</code> | Returned typed array constructor                 |
+| elements          | <code>Array</code>      | Number of elements to group for each typed array |
+| ...arrays         | <code>TypedArray</code> | Arrays to interleave                             |
+
 <!-- api-end -->
 
 ## License
