@@ -7,7 +7,7 @@
  *
  * @alias module:interleaveTypedArray
  * @param {TypedArray} ResultConstructor Returned typed array constructor
- * @param {elements} arrays Number of elements for each array
+ * @param {Array} elements Number of elements to group for each typed array
  * @param {...TypedArray} arrays Arrays to interleave
  * @returns {TypedArray}
  */
