@@ -2,8 +2,8 @@
 
 [![npm version](https://img.shields.io/npm/v/interleave-typed-array)](https://www.npmjs.com/package/interleave-typed-array)
 [![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://www.npmjs.com/package/interleave-typed-array)
-[![npm minzipped size](https://img.shields.io/bundlephobia/minzip/interleave-typed-array)](https://www.npmjs.com/package/interleave-typed-array)
-[![dependencies](https://img.shields.io/david/dmnsgn/interleave-typed-array)](https://github.com/dmnsgn/interleave-typed-array/blob/main/package.json)
+[![npm minzipped size](https://img.shields.io/bundlephobia/minzip/interleave-typed-array)](https://bundlephobia.com/package/interleave-typed-array)
+[![dependencies](https://img.shields.io/librariesio/release/npm/interleave-typed-array)](https://github.com/dmnsgn/interleave-typed-array/blob/main/package.json)
 [![types](https://img.shields.io/npm/types/interleave-typed-array)](https://github.com/microsoft/TypeScript)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-fa6673.svg)](https://conventionalcommits.org)
 [![styled with prettier](https://img.shields.io/badge/styled_with-Prettier-f8bc45.svg?logo=prettier)](https://github.com/prettier/prettier)
