@@ -1,17 +1,17 @@
 /**
- * @module interleaveTypedArray
+ * @module typedArrayInterleave
  */
 
 /**
  * Interleave n typed arrays
  *
- * @alias module:interleaveTypedArray
+ * @alias module:typedArrayInterleave
  * @param {TypedArray} ResultConstructor Returned typed array constructor
  * @param {Array} elements Number of elements to group for each typed array
  * @param {...TypedArray} arrays Arrays to interleave
  * @returns {TypedArray}
  */
-function interleaveTypedArray(ResultConstructor, elements, ...arrays) {
+function typedArrayInterleave(ResultConstructor, elements, ...arrays) {
   const totalLength = arrays.reduce((total, arr) => total + arr.length, 0);
   const result = new ResultConstructor(totalLength);
   const stride = elements.reduce((a, b) => a + b);
@@ -29,4 +29,4 @@ function interleaveTypedArray(ResultConstructor, elements, ...arrays) {
   return result;
 }
 
-export default interleaveTypedArray;
+export default typedArrayInterleave;

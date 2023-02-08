@@ -1,14 +1,14 @@
-# interleave-typed-array
+# typed-array-interleave
 
-[![npm version](https://img.shields.io/npm/v/interleave-typed-array)](https://www.npmjs.com/package/interleave-typed-array)
-[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://www.npmjs.com/package/interleave-typed-array)
-[![npm minzipped size](https://img.shields.io/bundlephobia/minzip/interleave-typed-array)](https://bundlephobia.com/package/interleave-typed-array)
-[![dependencies](https://img.shields.io/librariesio/release/npm/interleave-typed-array)](https://github.com/dmnsgn/interleave-typed-array/blob/main/package.json)
-[![types](https://img.shields.io/npm/types/interleave-typed-array)](https://github.com/microsoft/TypeScript)
+[![npm version](https://img.shields.io/npm/v/typed-array-interleave)](https://www.npmjs.com/package/typed-array-interleave)
+[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)](https://www.npmjs.com/package/typed-array-interleave)
+[![npm minzipped size](https://img.shields.io/bundlephobia/minzip/typed-array-interleave)](https://bundlephobia.com/package/typed-array-interleave)
+[![dependencies](https://img.shields.io/librariesio/release/npm/typed-array-interleave)](https://github.com/dmnsgn/typed-array-interleave/blob/main/package.json)
+[![types](https://img.shields.io/npm/types/typed-array-interleave)](https://github.com/microsoft/TypeScript)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-fa6673.svg)](https://conventionalcommits.org)
 [![styled with prettier](https://img.shields.io/badge/styled_with-Prettier-f8bc45.svg?logo=prettier)](https://github.com/prettier/prettier)
 [![linted with eslint](https://img.shields.io/badge/linted_with-ES_Lint-4B32C3.svg?logo=eslint)](https://github.com/eslint/eslint)
-[![license](https://img.shields.io/github/license/dmnsgn/interleave-typed-array)](https://github.com/dmnsgn/interleave-typed-array/blob/main/LICENSE.md)
+[![license](https://img.shields.io/github/license/dmnsgn/typed-array-interleave)](https://github.com/dmnsgn/typed-array-interleave/blob/main/LICENSE.md)
 
 Interleave n typed arrays.
 
@@ -19,14 +19,14 @@ Interleave n typed arrays.
 ## Installation
 
 ```bash
-npm install interleave-typed-array
+npm install typed-array-interleave
 ```
 
 ## Usage
 
 ```js
-import interleaveTypedArray from "interleave-typed-array";
-interleaveTypedArray(
+import typedArrayInterleave from "typed-array-interleave";
+typedArrayInterleave(
   Uint8Array,
   [3, 2],
   Uint8Array.of(1, 2, 3, 4, 5, 6),
@@ -39,13 +39,13 @@ interleaveTypedArray(
 
 <!-- api-start -->
 
-<a name="module_interleaveTypedArray"></a>
+<a name="module_typedArrayInterleave"></a>
 
-## interleaveTypedArray
+## typedArrayInterleave
 
-<a name="exp_module_interleaveTypedArray--interleaveTypedArray"></a>
+<a name="exp_module_typedArrayInterleave--typedArrayInterleave"></a>
 
-### interleaveTypedArray(ResultConstructor, elements, ...arrays) ⇒ <code>TypedArray</code> ⏏
+### typedArrayInterleave(ResultConstructor, elements, ...arrays) ⇒ <code>TypedArray</code> ⏏
 
 Interleave n typed arrays
 
@@ -61,4 +61,4 @@ Interleave n typed arrays
 
 ## License
 
-MIT. See [license file](https://github.com/dmnsgn/interleave-typed-array/blob/main/LICENSE.md).
+MIT. See [license file](https://github.com/dmnsgn/typed-array-interleave/blob/main/LICENSE.md).

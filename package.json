@@ -1,5 +1,5 @@
 {
-  "name": "interleave-typed-array",
+  "name": "typed-array-interleave",
   "version": "1.1.0",
   "description": "Interleave n typed arrays.",
   "keywords": [
@@ -8,9 +8,9 @@
     "arrays",
     "util"
   ],
-  "homepage": "https://github.com/dmnsgn/interleave-typed-array",
-  "bugs": "https://github.com/dmnsgn/interleave-typed-array/issues",
-  "repository": "dmnsgn/interleave-typed-array",
+  "homepage": "https://github.com/dmnsgn/typed-array-interleave",
+  "bugs": "https://github.com/dmnsgn/typed-array-interleave/issues",
+  "repository": "dmnsgn/typed-array-interleave",
   "funding": [
     {
       "type": "individual",
