@@ -1,6 +1,6 @@
 {
   "name": "typed-array-interleave",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Interleave n typed arrays.",
   "keywords": [
     "interleave",
@@ -10,7 +10,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/typed-array-interleave",
   "bugs": "https://github.com/dmnsgn/typed-array-interleave/issues",
-  "repository": "dmnsgn/typed-array-interleave",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/typed-array-interleave.git"
+  },
   "funding": [
     {
       "type": "individual",
