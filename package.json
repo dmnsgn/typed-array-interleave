@@ -34,11 +34,14 @@
       "default": "./index.js"
     }
   },
-  "main": "index.js",
-  "types": "types/index.d.ts",
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "packageManager": "npm@11.12.1",
   "engines": {
-    "node": ">=22.0.0",
-    "npm": ">=10.5.1",
-    "snowdev": ">=2.2.x"
+    "node": ">=26.0.0",
+    "snowdev": ">=3.0.0-alpha.3"
+  },
+  "snowdev": {
+    "serve": false
   }
 }

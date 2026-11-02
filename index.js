@@ -1,15 +1,27 @@
+/** @module typedArrayInterleave */
+
 /**
- * @module typedArrayInterleave
+ * @typedef {Int8Array
+ *   | Uint8Array
+ *   | Uint8ClampedArray
+ *   | Int16Array
+ *   | Uint16Array
+ *   | Int32Array
+ *   | Uint32Array
+ *   | Float16Array
+ *   | Float32Array
+ *   | Float64Array} TypedArray
  */
 
 /**
  * Interleave n typed arrays
  *
- * @alias module:typedArrayInterleave
- * @param {TypedArray} ResultConstructor Returned typed array constructor
- * @param {Array} elements Number of elements to group for each typed array
+ * @param {function(new:TypedArray, number)} ResultConstructor Returned typed
+ *   array constructor
+ * @param {number[]} elements Number of elements to group for each typed array
  * @param {...TypedArray} arrays Arrays to interleave
  * @returns {TypedArray}
+ * @alias module:typedArrayInterleave
  */
 function typedArrayInterleave(ResultConstructor, elements, ...arrays) {
   const totalLength = arrays.reduce((total, arr) => total + arr.length, 0);
