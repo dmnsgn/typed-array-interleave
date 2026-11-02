@@ -43,19 +43,29 @@ typedArrayInterleave(
 
 ## typedArrayInterleave
 
+- [typedArrayInterleave](#module_typedArrayInterleave)
+  - [typedArrayInterleave(ResultConstructor, elements, ...arrays)](#exp_module_typedArrayInterleave--typedArrayInterleave) ⇒ [<code>TypedArray</code>](#module_typedArrayInterleave--typedArrayInterleave..TypedArray) ⏏
+    - [~TypedArray](#module_typedArrayInterleave--typedArrayInterleave..TypedArray) : <code>Int8Array</code> \| <code>Uint8Array</code> \| <code>Uint8ClampedArray</code> \| <code>Int16Array</code> \| <code>Uint16Array</code> \| <code>Int32Array</code> \| <code>Uint32Array</code> \| <code>Float16Array</code> \| <code>Float32Array</code> \| <code>Float64Array</code>
+
 <a name="exp_module_typedArrayInterleave--typedArrayInterleave"></a>
 
-### typedArrayInterleave(ResultConstructor, elements, ...arrays) ⇒ <code>TypedArray</code> ⏏
+### typedArrayInterleave(ResultConstructor, elements, ...arrays) ⇒ [<code>TypedArray</code>](#module_typedArrayInterleave--typedArrayInterleave..TypedArray) ⏏
 
 Interleave n typed arrays
 
 **Kind**: Exported function
 
-| Param             | Type                    | Description                                      |
-| ----------------- | ----------------------- | ------------------------------------------------ |
-| ResultConstructor | <code>TypedArray</code> | Returned typed array constructor                 |
-| elements          | <code>Array</code>      | Number of elements to group for each typed array |
-| ...arrays         | <code>TypedArray</code> | Arrays to interleave                             |
+| Param             | Type                              | Description                                      |
+| ----------------- | --------------------------------- | ------------------------------------------------ |
+| ResultConstructor | <code>function</code>             | Returned typed array constructor                 |
+| elements          | <code>Array.&lt;number&gt;</code> | Number of elements to group for each typed array |
+| ...arrays         | <code>TypedArray</code>           | Arrays to interleave                             |
+
+<a name="module_typedArrayInterleave--typedArrayInterleave..TypedArray"></a>
+
+#### typedArrayInterleave~TypedArray : <code>Int8Array</code> \| <code>Uint8Array</code> \| <code>Uint8ClampedArray</code> \| <code>Int16Array</code> \| <code>Uint16Array</code> \| <code>Int32Array</code> \| <code>Uint32Array</code> \| <code>Float16Array</code> \| <code>Float32Array</code> \| <code>Float64Array</code>
+
+**Kind**: inner typedef of [<code>typedArrayInterleave</code>](#exp_module_typedArrayInterleave--typedArrayInterleave)
 
 <!-- api-end -->
 

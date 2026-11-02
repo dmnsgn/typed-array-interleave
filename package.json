@@ -1,6 +1,6 @@
 {
   "name": "typed-array-interleave",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Interleave n typed arrays.",
   "keywords": [
     "interleave",
